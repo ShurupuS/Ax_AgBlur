@@ -27,7 +27,7 @@
     self = [super init];
     if (self) {
         _duration = 2.5f;
-        _tintColor = [UIColor clearColor]
+        _tintColor = [UIColor clearColor];
         _blurRadius = 20;
         _saturationDeltaFactor = 0.8;
         _insets = UIEdgeInsetsZero;
