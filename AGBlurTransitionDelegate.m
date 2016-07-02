@@ -26,11 +26,12 @@
 - (id)init {
     self = [super init];
     if (self) {
-        _duration = 0.5f;
-        _tintColor = [UIColor colorWithWhite:0 alpha:0.3];
+        _duration = 2.5f;
+        _tintColor = [UIColor clearColor]
         _blurRadius = 20;
-        _saturationDeltaFactor = 1.8;
-        _insets = UIEdgeInsetsMake(20, 20, 20, 20);
+        _saturationDeltaFactor = 0.8;
+        _insets = UIEdgeInsetsZero;
+        _animationType = AGBlurTransitionAnimationTypeCrossDisolve;
         _cornerRadius = 0;
     }
     return self;
